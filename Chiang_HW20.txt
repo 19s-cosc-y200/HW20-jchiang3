@@ -1,0 +1,40 @@
+Project Name: Hands-On Exercises 6.1-6.3
+Author: Jennifer Chiang
+Date Last Modified: 4/18/19
+
+1. In the css file:
+#floatSetup { 
+  float: left;
+  background-color: #E7CFB1;
+  font-family: Verdana, sans-serif;
+  font-size: large;
+  padding: 20px; 
+}
+
+In the html file after placing <link rel="stylesheet" href="example.css"> in the head,
+can put id on something like:
+
+<nav id="floatSetup"></nav> which will cause navigation section to be left of page.
+
+2. In the css file: 
+.headline {
+  text-decoration: underline dotted #000000;
+  color: #0000FF;
+}
+
+In the html file can be used in likely any heading tag as needed.
+
+<h3 class="headline"></h3>
+
+3. In the css file:
+#position { 
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  border: 2px solid #000000;
+  background-color: #D3D3D3;
+}
+
+In the html file likely to be used in a div
+
+<div id="position"></div>
